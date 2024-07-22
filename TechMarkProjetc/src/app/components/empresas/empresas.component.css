@@ -3,5 +3,23 @@
     max-width: 1000px;
     margin: auto;
     padding: 20px 0px;
-    background-color: rgb(83, 175, 7);
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    width: 100px;
+}
+
+@media(max-width:800px){
+
+    .empresas{
+        display: none;
+    }
+
 }

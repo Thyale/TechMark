@@ -3,5 +3,80 @@
     max-width: 1000px;
     margin: auto;
     padding: 20px 0px;
-    background-color: rgb(108, 182, 182);
+    margin-top: 2em;
+}
+
+.Services_TextoInicial{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    color: #2F3060;
+    padding-bottom: 20px;
+}
+
+h2{
+    background-color: #FBA64B;
+}
+
+p{
+    width: 70%;
+    color: #2f3060c0;   
+}
+
+
+
+
+.Services_DivGeralDasDivs{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Services_DivGeralDasDivs>div{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #2F3060;
+    border: 2px solid #2F3060;
+}
+
+.DivTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h3{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #FBA64B;
+}
+
+img{
+    width: 100%;
+    max-width: 200px;
+}
+
+@media(max-width:800px){
+    
+    .Services_TextoInicial{
+        flex-direction: column;
+        gap: 10px;
+        align-items: start;
+    }
+
+    p{
+        width: 100%;
+    }
+
 }
