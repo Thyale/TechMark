@@ -1,0 +1,61 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.DivTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #2F3060;
+}
+
+img{
+    width: 50px;
+}
+
+.DivSections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-weight: bold;
+    color: #2F3060;
+    cursor: pointer;
+}
+
+button{
+    padding: 7px 15px;
+    border: 2px solid #2F3060;
+    border-radius: 10px;
+    color: #2F3060;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #FBA64B;
+}
+
+@media(max-width:800px){
+    
+    .DivSections{
+        display: none;
+    }
+
+}
