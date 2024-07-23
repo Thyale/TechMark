@@ -14,6 +14,7 @@ import { EmpresasComponent } from './components/empresas/empresas.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { StudyCaseComponent } from './components/study-case/study-case.component';
 import { ContatoComponent } from './components/contato/contato.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContatoComponent } from './components/contato/contato.component';
     EmpresasComponent,
     BlogComponent,
     StudyCaseComponent,
-    ContatoComponent
+    ContatoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
