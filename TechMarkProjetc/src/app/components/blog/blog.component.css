@@ -1,4 +1,4 @@
-.About{
+.Blog{
     width: 80%;
     max-width: 1000px;
     margin: auto;
@@ -8,20 +8,19 @@
     align-items: center;
 }
 
-.DivTexto{
-    width: 50%;
+.Blog_Texto{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    color: #2F3060;
 }
 
 h2{
-    font-size: 50px;
+    font-size: 25px;
+    color: #2F3060;
 }
 
 p{
-   color: #2f3060b0;
+    color: #2f3060c4;
 }
 
 button{
@@ -43,21 +42,12 @@ button:hover{
 
 img{
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 @media(max-width:800px){
 
-    .About{
-        flex-direction: column;
+    img{
+        display: none;
     }
-    
-    .DivTexto{
-        width: 100%;
-    }
-    
-    h2{
-        font-size: 40px;
-    } 
-
 }
