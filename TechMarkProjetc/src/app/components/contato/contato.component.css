@@ -27,7 +27,7 @@ p{
 .DivFormulario{
     display: flex;
     flex-direction: column;
-    width: 50%;
+   width: 50%;
     margin: auto;
     margin-top: 1em;
     background-color: #FBA64B;
@@ -64,7 +64,6 @@ button{
     border-radius: 20px;
     cursor: pointer;
 }
-
 
 @media(max-width:800px){
     .textoSuperior{
