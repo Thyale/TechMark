@@ -1,0 +1,83 @@
+.contato{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textoSuperior{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+h2{
+    background-color: #FBA64B;
+}
+
+p{
+    width: 70%;
+    color: #2f3060c0;   
+}
+
+.DivFormulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+    background-color: #FBA64B;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.DivFormulario>form>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    border: 1px solid #2f3060;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button{
+    background-color: #2f3060;
+    color: white;
+    width: 50%;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+@media(max-width:800px){
+    .textoSuperior{
+        flex-direction: column;
+        gap: 10px;
+        align-items: start;
+    }
+
+    p{
+        width: 100%;
+    }
+
+    .DivFormulario{
+        width: 90%;
+    }
+}

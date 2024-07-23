@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { EmpresasComponent } from './components/empresas/empresas.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { StudyCaseComponent } from './components/study-case/study-case.component';
+import { ContatoComponent } from './components/contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { StudyCaseComponent } from './components/study-case/study-case.component
     ServicesComponent,
     EmpresasComponent,
     BlogComponent,
-    StudyCaseComponent
+    StudyCaseComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [
     provideClientHydration()

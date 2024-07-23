@@ -26,9 +26,8 @@ p{
 button{
     width: 50%;
     max-width: 300px;
-    background-color: #2F3060;
-    color: white;
-    border: none;
+    color: #2F3060;
+    border: 1px solid #2F3060;
     outline: none;
     padding: 5px 13px;
     border-radius: 5px;
